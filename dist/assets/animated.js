@@ -767,7 +767,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("animated/app")["default"].create({"name":"animated","version":"0.0.0+8299f4a8"});
+            require("animated/app")["default"].create({"name":"animated","version":"0.0.0+e9b1417c"});
           }
         
 //# sourceMappingURL=animated.map
