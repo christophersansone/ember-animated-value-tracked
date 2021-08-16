@@ -1,0 +1,10 @@
+{{log 'counter' this.counter}}
+<AnimatedContainer>
+  {{#animated-value this.counter rules=this.rules duration=100 as |v|}}
+      {{log 'animated counter' v this.counter}}
+      <span class="numbers">{{v}}</span>
+  {{/animated-value}}
+</AnimatedContainer>
+
+<button {{action this.increment}}>+</button>
+<button {{action this.decrement}}>-</button>
