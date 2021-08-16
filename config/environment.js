@@ -4,7 +4,7 @@ module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'animated',
     environment,
-    rootURL: '/dist/',
+    rootURL: '/ember-animated-value-tracked/dist/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
