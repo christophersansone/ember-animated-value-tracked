@@ -4,7 +4,7 @@ module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'animated',
     environment,
-    rootURL: '/',
+    rootURL: '/dist/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
